@@ -15,6 +15,6 @@ case $fruit in
 
 "cherr") echo "it is a cherry";;
 
-*) echo "it is something else"
+*) echo "it is something else";;
 
 esac
