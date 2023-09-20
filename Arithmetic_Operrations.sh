@@ -59,3 +59,19 @@ fi
 
 
 
+
+if [[ $num -gt 10 ]]
+then
+echo "Ok"
+elif [[ $num -lt 10 ]]
+then
+echo "bad"
+else
+echo "not applicable"
+
+fi
+
+
+
+
+
