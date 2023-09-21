@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+
+
+
+freespace=$( free -mt | grep "Total" | awk '{print $4}')
+
+th=500
+if [[ $freespace -lt th  ]]
+then
+echo "Warning , memory low"
+else
+echo "Memory Sufficient -- $freespace "
+fi
+
+
